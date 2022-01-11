@@ -13,5 +13,5 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ResponseApiDTO implements Serializable {
-    private List<ResultDTO> results;
+    private List<Object> results;
 }

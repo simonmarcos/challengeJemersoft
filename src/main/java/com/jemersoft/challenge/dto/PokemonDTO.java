@@ -13,9 +13,9 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PokemonDTO implements Serializable {
-    private List<AbilitiesDTO> abilities;
+    private List<Object> abilities;
     private SpritesDTO sprites;
-    private List<TypesDTO> types;
-    private List<MovesDTO> moves;
+    private List<Object> types;
+    private List<Object> moves;
     private Long weight;
 }
